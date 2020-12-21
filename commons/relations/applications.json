@@ -1,0 +1,56 @@
+{
+	"APP_TALLERTHYWX_120": {
+		"externalModules": {
+		},
+		"forms": {
+			"MMXEQ": [
+				{
+					"generated": 2,
+					"moduleId": "MMXEQ",
+					"name": "formPersona",
+					"subModuleId": "SSMMX",
+					"taskId": "T_MMXEQENEZXXTQ_814",
+					"type": "Simple form"
+				},
+				{
+					"generated": 2,
+					"moduleId": "MMXEQ",
+					"name": "formCliente",
+					"subModuleId": "SSMMX",
+					"taskId": "T_MMXEQICUOJCMA_396",
+					"type": "Simple form"
+				},
+				{
+					"generated": 2,
+					"moduleId": "MMXEQ",
+					"name": "formConsulta",
+					"subModuleId": "SSMMX",
+					"taskId": "T_MMXEQKMJPABBZ_957",
+					"type": "Simple form"
+				},
+				{
+					"generated": 2,
+					"moduleId": "MMXEQ",
+					"name": "formConsultaCli",
+					"subModuleId": "SSMMX",
+					"taskId": "T_MMXEQUITTBDMH_645",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "Taller",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_TALLERTHYWX_120",
+		"mainPortletTaskId": "T_MMXEQENEZXXTQ_814",
+		"modules": [
+			"MMXEQ"
+		],
+		"name": "Taller"
+	}
+}

@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PERSOONA_GQ42",
+		"controlName": "PersonaQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../MMXEQ/SSMMX/queries/Q_PERSOONA_GQ42.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Persona",
+		"eventsType": "queryEventType"
+	}
+]

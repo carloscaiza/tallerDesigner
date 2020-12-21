@@ -1,0 +1,118 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "C"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "25160"
+		}
+	],
+	"name": "BLI_consultar_cliente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI8460_bli_consultar_cliente",
+	"patternName": "BLI_consultar_cliente",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "0cfdf9a0-f8c6-4e22-87ac-3a8968f1eea2",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 2,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "0cfdf9a0-f8c6-4e22-87ac-3a8968f1eea2",
+			"columns": [
+				{
+					"attributeId": "AT39_IDCLIENT839",
+					"entityId": "EN_CLIENTECP_839",
+					"format": "",
+					"name": "id",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT31_NOMBREAN839",
+					"entityId": "EN_CLIENTECP_839",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT14_APELLIDO839",
+					"entityId": "EN_CLIENTECP_839",
+					"format": "",
+					"name": "apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT79_TELEFONO839",
+					"entityId": "EN_CLIENTECP_839",
+					"format": "",
+					"name": "telefono",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT12_CEDULAXD839",
+					"entityId": "EN_CLIENTECP_839",
+					"format": "",
+					"name": "cedula",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT48_NACIONII839",
+					"entityId": "EN_CLIENTECP_839",
+					"format": "",
+					"name": "nacionalidad",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTECP_839",
+			"module": {
+				"moduleId": "MMXEQ",
+				"moduleName": "Main"
+			},
+			"name": "Cliente"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_cliente_taller",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

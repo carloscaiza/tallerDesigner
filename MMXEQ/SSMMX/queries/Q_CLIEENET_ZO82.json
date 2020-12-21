@@ -1,0 +1,181 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_CLIEENET_ZO82_213",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "BLI8460_bli_consultar_cliente",
+					"actionType": "BLI"
+				},
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 7,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_CLIEENET_ZO82",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_CLIENTECP_839",
+	"mainEntityModule": "MMXEQ",
+	"mainEntityName": {
+		"$ref": "../../../MMXEQ/relations/componentKeys.json#/Entities/EN_CLIENTECP_839/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../MMXEQ/relations/componentKeys.json#/SSMMX/Queries/Q_CLIEENET_ZO82/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "telefono",
+			"attribute": {
+				"$ref": "../../../MMXEQ/entities/EN_CLIENTECP_839.json#/attributes/AT79_TELEFONO839"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEE2822Z380_06",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../MMXEQ/entities/EN_CLIENTECP_839.json#/attributes/AT31_NOMBREAN839"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEE8TTT8265_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "idCliente",
+			"attribute": {
+				"$ref": "../../../MMXEQ/entities/EN_CLIENTECP_839.json#/attributes/AT39_IDCLIENT839"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEEEZ8ON907_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../MMXEQ/entities/EN_CLIENTECP_839.json#/attributes/AT14_APELLIDO839"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEEN28N2797_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nacionalidad",
+			"attribute": {
+				"$ref": "../../../MMXEQ/entities/EN_CLIENTECP_839.json#/attributes/AT48_NACIONII839"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 6,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEENEZON772_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "cedula",
+			"attribute": {
+				"$ref": "../../../MMXEQ/entities/EN_CLIENTECP_839.json#/attributes/AT12_CEDULAXD839"
+			},
+			"customizationLayer": null,
+			"customizationLayerDescription": null,
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 5,
+			"orderBy": 0,
+			"orderByDirection": "A",
+			"queryMemberId": "QM_CLIEENZEEO105_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "MMXEQ",
+				"subModuleId": "SSMMX"
+			}
+		}
+	]
+}

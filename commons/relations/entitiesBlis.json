@@ -1,0 +1,72 @@
+{
+	"MMXEQ": [
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PERSONAYL_719",
+						"moduleId": "MMXEQ",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI1330_bli_insert_persona",
+			"nameBli": "BLI_insert_persona"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PERSONAYL_719",
+						"moduleId": "MMXEQ",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI3284_bli_consultar_persona",
+			"nameBli": "BLI_consultar_persona"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTECP_839",
+						"moduleId": "MMXEQ",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI4141_bli_insert_cliente",
+			"nameBli": "BLI_insert_cliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_CLIENTECP_839",
+						"moduleId": "MMXEQ",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8460_bli_consultar_cliente",
+			"nameBli": "BLI_consultar_cliente"
+		}
+	]
+}

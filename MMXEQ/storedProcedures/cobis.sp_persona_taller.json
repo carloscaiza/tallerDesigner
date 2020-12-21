@@ -1,0 +1,119 @@
+{
+	"filename": "D:\\CapacitacionCMC\\JSON\\cobis.sp_persona_taller.sp",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_persona_taller",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn_branch"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_lsrv"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@s_org"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_culture"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_apellido"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_telefono"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_sexo"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "9d30d271-3726-4b32-9218-6eb66f117011",
+				"columns": [
+					"id",
+					"nombre",
+					"apellido",
+					"telefono"
+				],
+				"editMode": false,
+				"queryText": "SELECT \"id\"=pe_id,\r\n              \"nombre\"=pe_nombre,\r\n              \"apellido\"=pe_apellido,\r\n              \"telefono\"=pe_telefono\r\n              FROM"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

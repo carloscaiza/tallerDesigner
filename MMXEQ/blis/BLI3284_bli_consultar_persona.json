@@ -1,0 +1,102 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "C"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "2515"
+		}
+	],
+	"name": "BLI_consultar_persona",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI3284_bli_consultar_persona",
+	"patternName": "BLI_consultar_persona",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "9d30d271-3726-4b32-9218-6eb66f117011",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "SELECT \"id\"=pe_id,\r\n              \"nombre\"=pe_nombre,\r\n              \"apellido\"=pe_apellido,\r\n              \"telefono\"=pe_telefono\r\n              FROM"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "9d30d271-3726-4b32-9218-6eb66f117011",
+			"columns": [
+				{
+					"attributeId": "AT76_IDPERSAN719",
+					"entityId": "EN_PERSONAYL_719",
+					"format": "",
+					"name": "id",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT10_NOMBREGR719",
+					"entityId": "EN_PERSONAYL_719",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT40_APELLIDD719",
+					"entityId": "EN_PERSONAYL_719",
+					"format": "",
+					"name": "apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT21_TELEFOOO719",
+					"entityId": "EN_PERSONAYL_719",
+					"format": "",
+					"name": "telefono",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_PERSONAYL_719",
+			"module": {
+				"moduleId": "MMXEQ",
+				"moduleName": "Main"
+			},
+			"name": "Persona"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_persona_taller",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

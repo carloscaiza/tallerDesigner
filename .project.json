@@ -1,0 +1,19 @@
+{
+	"culture": "culture",
+	"metadataVersion": "7.2.0.2020",
+	"moduleId": "MMXEQ",
+	"modules": [
+		{
+			"moduleId": "MMXEQ",
+			"moduleName": "Main",
+			"subModules": [
+				{
+					"subModuleId": "SSMMX",
+					"subModuleName": "Main"
+				}
+			]
+		}
+	],
+	"projectName": "ProyectoTaller",
+	"subModuleId": "SSMMX"
+}

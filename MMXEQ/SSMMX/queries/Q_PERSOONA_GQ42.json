@@ -1,0 +1,141 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_PERSOONA_GQ42_860",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "BLI3284_bli_consultar_persona",
+					"actionType": "BLI"
+				},
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 7,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_PERSOONA_GQ42",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_PERSONAYL_719",
+	"mainEntityModule": "MMXEQ",
+	"mainEntityName": {
+		"$ref": "../../../MMXEQ/relations/componentKeys.json#/Entities/EN_PERSONAYL_719/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../MMXEQ/relations/componentKeys.json#/SSMMX/Queries/Q_PERSOONA_GQ42/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "idPersona",
+			"attribute": {
+				"$ref": "../../../MMXEQ/entities/EN_PERSONAYL_719.json#/attributes/AT76_IDPERSAN719"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PERSOA42NG136_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../MMXEQ/entities/EN_PERSONAYL_719.json#/attributes/AT40_APELLIDD719"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PERSONA22A428_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../MMXEQ/entities/EN_PERSONAYL_719.json#/attributes/AT10_NOMBREGR719"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PERSOO4GQ4643_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "telefono",
+			"attribute": {
+				"$ref": "../../../MMXEQ/entities/EN_PERSONAYL_719.json#/attributes/AT21_TELEFOOO719"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PERSOQQNOO953_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "MMXEQ",
+				"subModuleId": "SSMMX"
+			}
+		}
+	]
+}

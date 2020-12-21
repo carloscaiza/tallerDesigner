@@ -1,0 +1,12 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CLIENTECP_839",
+			"isContextEntity": null,
+			"moduleId": "MMXEQ",
+			"related": false
+		}
+	],
+	"queries": [
+	]
+}

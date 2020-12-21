@@ -1,0 +1,16 @@
+{
+	"EN_CLIENTECP_839": {
+		"queries": {
+			"Q_CLIEENET_ZO82": {
+				"$ref": "../SSMMX/queries/Q_CLIEENET_ZO82.json#"
+			}
+		}
+	},
+	"EN_PERSONAYL_719": {
+		"queries": {
+			"Q_PERSOONA_GQ42": {
+				"$ref": "../SSMMX/queries/Q_PERSOONA_GQ42.json#"
+			}
+		}
+	}
+}
