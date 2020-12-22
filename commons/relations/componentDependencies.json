@@ -6,6 +6,10 @@
 			"labels": [
 			]
 		},
+		"EN_FILTROBDU_551": {
+			"labels": [
+			]
+		},
 		"EN_PERSONAYL_719": {
 			"labels": [
 			]
@@ -14,14 +18,18 @@
 	"Forms": {
 		"T_MMXEQENEZXXTQ_814": {
 			"blis": [
-				"BLI1330_bli_insert_persona"
+				"BLI1330_bli_insert_persona",
+				"BLI7910_bli_update_persona"
 			],
 			"entities": {
 				"EN_PERSONAYL_719": [
 					"AT10_NOMBREGR719",
+					"AT11_ESTADOVI719",
 					"AT18_SEXOYLIF719",
 					"AT21_TELEFOOO719",
-					"AT40_APELLIDD719"
+					"AT23_NOMBREEU719",
+					"AT40_APELLIDD719",
+					"AT62_APELLIUU719"
 				]
 			},
 			"externalEntities": {
@@ -31,9 +39,13 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_MMXEQ_ACTUALIRZ_91189",
+				"LBL_MMXEQ_APELLIDEO_12271",
 				"LBL_MMXEQ_APELLIDOO_98604",
+				"LBL_MMXEQ_ESTADOCIV_42480",
 				"LBL_MMXEQ_GENEROWOF_36018",
 				"LBL_MMXEQ_GUARDARRS_50009",
+				"LBL_MMXEQ_NOMBRECNY_10986",
 				"LBL_MMXEQ_NOMBRETGN_73547",
 				"LBL_MMXEQ_TELEFONOO_92866",
 				"MSG_MMXEQ_DEBETENEM_16127"
@@ -45,6 +57,7 @@
 		},
 		"T_MMXEQICUOJCMA_396": {
 			"blis": [
+				"BLI2329_bli_update_cliente",
 				"BLI4141_bli_insert_cliente"
 			],
 			"entities": {
@@ -63,6 +76,7 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_MMXEQ_ACTUALIRZ_91189",
 				"LBL_MMXEQ_APELLIDOO_98604",
 				"LBL_MMXEQ_CEDULAPZG_64970",
 				"LBL_MMXEQ_GUARDARRS_50009",
@@ -82,8 +96,12 @@
 			"entities": {
 				"EN_PERSONAYL_719": [
 					"AT10_NOMBREGR719",
+					"AT11_ESTADOVI719",
+					"AT18_SEXOYLIF719",
 					"AT21_TELEFOOO719",
+					"AT23_NOMBREEU719",
 					"AT40_APELLIDD719",
+					"AT62_APELLIUU719",
 					"AT76_IDPERSAN719"
 				]
 			},
@@ -97,11 +115,37 @@
 			],
 			"queries": {
 				"Q_PERSOONA_GQ42": [
+					"QM_PERSO4QOQ4505_04",
 					"QM_PERSOA42NG136_04",
 					"QM_PERSONA22A428_03",
 					"QM_PERSOO4GQ4643_01",
+					"QM_PERSOQG4A4781_03",
+					"QM_PERSOQNAQQ273_02",
+					"QM_PERSOQON24286_01",
 					"QM_PERSOQQNOO953_02"
 				]
+			},
+			"subForms": [
+			]
+		},
+		"T_MMXEQMXOIUVFI_481": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FILTROBDU_551": [
+					"AT56_FILTRORR551"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMXEQ_FILTROXYG_56503"
+			],
+			"queries": {
 			},
 			"subForms": [
 			]

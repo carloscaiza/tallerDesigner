@@ -20,6 +20,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+					{
+						"entityId": "EN_CLIENTECP_839",
+						"moduleId": "MMXEQ",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI2329_bli_update_cliente",
+			"nameBli": "BLI_update_cliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 				],
 				"outputEntity": [
 				],
@@ -50,6 +67,23 @@
 			},
 			"idBli": "BLI4141_bli_insert_cliente",
 			"nameBli": "BLI_insert_cliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PERSONAYL_719",
+						"moduleId": "MMXEQ",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI7910_bli_update_persona",
+			"nameBli": "BLI_update_persona"
 		},
 		{
 			"entities": {

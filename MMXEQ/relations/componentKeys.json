@@ -3,6 +3,9 @@
 		"EN_CLIENTECP_839": {
 			"name": "Cliente"
 		},
+		"EN_FILTROBDU_551": {
+			"name": "FiltroBusquedaPersona"
+		},
 		"EN_PERSONAYL_719": {
 			"name": "Persona"
 		}
@@ -19,6 +22,9 @@
 			},
 			"T_MMXEQKMJPABBZ_957": {
 				"name": "formConsulta"
+			},
+			"T_MMXEQMXOIUVFI_481": {
+				"name": "formFiltro"
 			},
 			"T_MMXEQUITTBDMH_645": {
 				"name": "formConsultaCli"

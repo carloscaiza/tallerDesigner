@@ -5,7 +5,7 @@
 		"forms": {
 			"MMXEQ": [
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "MMXEQ",
 					"name": "formPersona",
 					"subModuleId": "SSMMX",
@@ -13,7 +13,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "MMXEQ",
 					"name": "formCliente",
 					"subModuleId": "SSMMX",
@@ -21,7 +21,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "MMXEQ",
 					"name": "formConsulta",
 					"subModuleId": "SSMMX",
@@ -29,7 +29,15 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
+					"moduleId": "MMXEQ",
+					"name": "formFiltro",
+					"subModuleId": "SSMMX",
+					"taskId": "T_MMXEQMXOIUVFI_481",
+					"type": "Simple form"
+				},
+				{
+					"generated": 4,
 					"moduleId": "MMXEQ",
 					"name": "formConsultaCli",
 					"subModuleId": "SSMMX",

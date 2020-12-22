@@ -2,12 +2,12 @@
 	"databaseType": "Sybase",
 	"inputEntity": [
 		{
-			"entityId": "EN_PERSONAYL_719",
+			"entityId": "EN_CLIENTECP_839",
 			"module": {
 				"moduleId": "MMXEQ",
 				"moduleName": "Main"
 			},
-			"name": "Persona"
+			"name": "Cliente"
 		}
 	],
 	"inputParameters": [
@@ -20,7 +20,7 @@
 			"format": "",
 			"name": "@i_operacion",
 			"type": "CONSTANT",
-			"value": "I"
+			"value": "U"
 		},
 		{
 			"attributeId": "",
@@ -31,104 +31,82 @@
 			"format": "",
 			"name": "@t_trn",
 			"type": "CONSTANT",
-			"value": "2515"
+			"value": "25160"
 		},
 		{
-			"attributeId": "AT10_NOMBREGR719",
+			"attributeId": "AT31_NOMBREAN839",
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
 			"direction": "in",
-			"entityId": "EN_PERSONAYL_719",
+			"entityId": "EN_CLIENTECP_839",
 			"format": "",
 			"name": "@i_nombre",
 			"type": "ATTRIBUTE",
 			"value": ""
 		},
 		{
-			"attributeId": "AT40_APELLIDD719",
+			"attributeId": "AT14_APELLIDO839",
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
 			"direction": "in",
-			"entityId": "EN_PERSONAYL_719",
+			"entityId": "EN_CLIENTECP_839",
 			"format": "",
 			"name": "@i_apellido",
 			"type": "ATTRIBUTE",
 			"value": ""
 		},
 		{
-			"attributeId": "AT21_TELEFOOO719",
+			"attributeId": "AT79_TELEFONO839",
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
 			"direction": "in",
-			"entityId": "EN_PERSONAYL_719",
+			"entityId": "EN_CLIENTECP_839",
 			"format": "",
 			"name": "@i_telefono",
 			"type": "ATTRIBUTE",
 			"value": ""
 		},
 		{
-			"attributeId": "AT18_SEXOYLIF719",
+			"attributeId": "AT12_CEDULAXD839",
 			"bddType": "varchar",
 			"dataType": "VARCHAR",
 			"direction": "in",
-			"entityId": "EN_PERSONAYL_719",
+			"entityId": "EN_CLIENTECP_839",
 			"format": "",
-			"name": "@i_sexo",
+			"name": "@i_cedula",
 			"type": "ATTRIBUTE",
 			"value": ""
 		},
 		{
-			"attributeId": "AT76_IDPERSAN719",
+			"attributeId": "AT48_NACIONII839",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_CLIENTECP_839",
+			"format": "",
+			"name": "@i_nacionalidad",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT39_IDCLIENT839",
 			"bddType": "int",
 			"dataType": "INT",
 			"direction": "in",
-			"entityId": "EN_PERSONAYL_719",
+			"entityId": "EN_CLIENTECP_839",
 			"format": "",
 			"name": "@i_id",
 			"type": "ATTRIBUTE",
 			"value": ""
-		},
-		{
-			"attributeId": "AT11_ESTADOVI719",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
-			"direction": "in",
-			"entityId": "EN_PERSONAYL_719",
-			"format": "",
-			"name": "@i_estado_civil",
-			"type": "ATTRIBUTE",
-			"value": ""
-		},
-		{
-			"attributeId": "AT23_NOMBREEU719",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
-			"direction": "in",
-			"entityId": "EN_PERSONAYL_719",
-			"format": "",
-			"name": "@i_nombre_conyugue",
-			"type": "ATTRIBUTE",
-			"value": ""
-		},
-		{
-			"attributeId": "AT62_APELLIUU719",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
-			"direction": "in",
-			"entityId": "EN_PERSONAYL_719",
-			"format": "",
-			"name": "@i_apellido_conyugue",
-			"type": "ATTRIBUTE",
-			"value": ""
 		}
 	],
-	"name": "BLI_insert_persona",
+	"name": "BLI_update_cliente",
 	"outputEntity": [
 	],
 	"outputParameters": [
 	],
-	"patternId": "BLI1330_bli_insert_persona",
-	"patternName": "BLI_insert_persona",
+	"patternId": "BLI2329_bli_update_cliente",
+	"patternName": "BLI_update_cliente",
 	"patternType": "Bli",
 	"queries": [
 	],
@@ -137,7 +115,7 @@
 	"returnEntity": [
 	],
 	"serverName": "CENTRAL",
-	"serviceID": "cobis.sp_persona_taller",
+	"serviceID": "cobis.sp_cliente_taller",
 	"type": "SP",
 	"typeMapping": "MAPJava"
 }

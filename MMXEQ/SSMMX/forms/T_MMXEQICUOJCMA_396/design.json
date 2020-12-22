@@ -18,6 +18,71 @@
 						"eventId": 10,
 						"name": "ExecuteCommand"
 					},
+					"customEventId": "CECM_010CM_TMMXEQIC_5SS_793",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+						{
+							"actionArgs": [
+							],
+							"actionId": "CUSTOM",
+							"actionType": "CUSTOM"
+						},
+						{
+							"actionArgs": [
+							],
+							"actionId": "BLI2329_bli_update_cliente",
+							"actionType": "BLI"
+						}
+					],
+					"executionType": 7,
+					"filter": null,
+					"isEnabled": true
+				}
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"group": null,
+			"id": {
+				"commandId": "CM_TMMXEQIC_5SS"
+			},
+			"imageId": null,
+			"isCustomized": false,
+			"label": {
+				"defaultValue": {
+					"$ref": "../../../../MMXEQ/assets/languages/MMXEQ.json#/MMXEQ/LBL/LBL_MMXEQ_ACTUALIRZ_91189"
+				},
+				"labelId": "LBL_MMXEQ_ACTUALIRZ_91189",
+				"moduleId": "MMXEQ"
+			},
+			"layoutType": "Command",
+			"name": "Command2",
+			"options": 0,
+			"order": 2,
+			"showInMode": 4095,
+			"userControl": {
+				"type": "A",
+				"userControlId": "Button"
+			},
+			"validationGroup": null
+		},
+		{
+			"action": null,
+			"causesValidation": false,
+			"causesValidationAsString": "F",
+			"close": false,
+			"closeAsString": "F",
+			"commandType": 0,
+			"customEvents": [
+				{
+					"commandEventType": {
+						"availableExecutionType": 7,
+						"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+						"eventId": 10,
+						"name": "ExecuteCommand"
+					},
 					"customEventId": "CECM_010CM_TMMXEQIC_MQ7_340",
 					"customizationLayer": 0,
 					"customizationLayerDescription": "ECU",

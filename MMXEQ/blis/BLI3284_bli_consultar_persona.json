@@ -36,17 +36,17 @@
 	"patternType": "Bli",
 	"queries": [
 		{
-			"_idQuery": "9d30d271-3726-4b32-9218-6eb66f117011",
+			"_idQuery": "e2b78213-bc7a-4d28-b36c-29116a898673",
 			"isMapReturn": true,
 			"isReturn": true,
 			"isSingleResult": false,
-			"numberQuery": 1,
-			"queryName": "SELECT \"id\"=pe_id,\r\n              \"nombre\"=pe_nombre,\r\n              \"apellido\"=pe_apellido,\r\n              \"telefono\"=pe_telefono\r\n              FROM"
+			"numberQuery": 2,
+			"queryName": "SELECT"
 		}
 	],
 	"resultSets": [
 		{
-			"_idQuery": "9d30d271-3726-4b32-9218-6eb66f117011",
+			"_idQuery": "e2b78213-bc7a-4d28-b36c-29116a898673",
 			"columns": [
 				{
 					"attributeId": "AT76_IDPERSAN719",
@@ -78,6 +78,38 @@
 					"format": "",
 					"name": "telefono",
 					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT18_SEXOYLIF719",
+					"entityId": "EN_PERSONAYL_719",
+					"format": "",
+					"name": "sexo",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT11_ESTADOVI719",
+					"entityId": "EN_PERSONAYL_719",
+					"format": "",
+					"name": "estadoCivil",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT23_NOMBREEU719",
+					"entityId": "EN_PERSONAYL_719",
+					"format": "",
+					"name": "nombreConyugue",
+					"position": 7,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT62_APELLIUU719",
+					"entityId": "EN_PERSONAYL_719",
+					"format": "",
+					"name": "apellidoConyugue",
+					"position": 8,
 					"type": "ATTRIBUTE"
 				}
 			],
