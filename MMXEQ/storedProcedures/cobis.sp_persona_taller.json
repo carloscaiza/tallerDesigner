@@ -114,6 +114,11 @@
 				"dataType": "varchar",
 				"direction": "in",
 				"name": "@i_apellido_conyugue"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_estado"
 			}
 		],
 		"queries": [
@@ -140,7 +145,35 @@
 					"nombreConyugue",
 					"apellidoConyugue"
 				],
-				"editMode": true,
+				"editMode": false,
+				"queryText": "SELECT"
+			},
+			{
+				"_idQuery": "bac055ba-c827-421f-bb36-c77138dcea84",
+				"columns": [
+					"id",
+					"nombre",
+					"apellido",
+					"telefono",
+					"estado",
+					"Tipo",
+					"fechaI"
+				],
+				"editMode": false,
+				"queryText": "SELECT"
+			},
+			{
+				"_idQuery": "5aabfbb4-9bc7-4d79-b929-ad7df42fe61e",
+				"columns": [
+					"id",
+					"nombre",
+					"apellido",
+					"telefono",
+					"estado",
+					"Tipo",
+					"fechaI"
+				],
+				"editMode": false,
 				"queryText": "SELECT"
 			}
 		],

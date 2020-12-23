@@ -21,6 +21,14 @@
 					"type": "Simple form"
 				},
 				{
+					"generated": 0,
+					"moduleId": "MMXEQ",
+					"name": "FormProspecto",
+					"subModuleId": "SSMMX",
+					"taskId": "T_MMXEQIUKVXNDV_994",
+					"type": "Simple form"
+				},
+				{
 					"generated": 4,
 					"moduleId": "MMXEQ",
 					"name": "formConsulta",

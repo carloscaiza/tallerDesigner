@@ -1,0 +1,32 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PROSTPOT_PL72",
+		"controlName": "ProspectoQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../MMXEQ/SSMMX/queries/Q_PROSTPOT_PL72.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "Prospecto",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_504821",
+		"controlName": "VA_VAIMAGEBUTTONNN_504821",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "FiltroBusquedaPersona",
+		"eventsType": "visualAttributeEventType"
+	}
+]

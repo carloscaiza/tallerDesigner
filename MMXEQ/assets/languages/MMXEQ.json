@@ -7,6 +7,7 @@
 			"LBL_MMXEQ_CEDULAPZG_64970": "Cedula",
 			"LBL_MMXEQ_CLIENTESS_58505": "Clientes",
 			"LBL_MMXEQ_ESTADOCIV_42480": "Estado Civil",
+			"LBL_MMXEQ_ESTADOLAL_44582": "Estado",
 			"LBL_MMXEQ_FILTROXYG_56503": "Filtro",
 			"LBL_MMXEQ_GENEROWOF_36018": "Genero",
 			"LBL_MMXEQ_GUARDARRS_50009": "Guardar",
@@ -14,7 +15,8 @@
 			"LBL_MMXEQ_NOMBRECNY_10986": "Nombre Conyugue",
 			"LBL_MMXEQ_NOMBRETGN_73547": "Nombre",
 			"LBL_MMXEQ_REGISTRPR_67640": "Registro Persona",
-			"LBL_MMXEQ_TELEFONOO_92866": "Telefono"
+			"LBL_MMXEQ_TELEFONOO_92866": "Telefono",
+			"LBL_MMXEQ_TIPOUZWVW_13055": "Tipo"
 		},
 		"MSG": {
 			"MSG_MMXEQ_DEBETENEM_16127": "Debe tener 10 numeros"

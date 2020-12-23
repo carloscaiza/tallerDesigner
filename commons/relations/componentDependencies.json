@@ -13,6 +13,10 @@
 		"EN_PERSONAYL_719": {
 			"labels": [
 			]
+		},
+		"EN_PROSPECOO_214": {
+			"labels": [
+			]
 		}
 	},
 	"Forms": {
@@ -89,6 +93,52 @@
 			"subForms": [
 			]
 		},
+		"T_MMXEQIUKVXNDV_994": {
+			"blis": [
+			],
+			"entities": {
+				"EN_FILTROBDU_551": [
+					"AT56_FILTRORR551",
+					"AT62_TIPOUZEI551"
+				],
+				"EN_PROSPECOO_214": [
+					"AT11_TIPORUIL214",
+					"AT29_ESTADOKK214",
+					"AT30_APELLIDD214",
+					"AT42_NOMBREAT214",
+					"AT65_IDPROSTE214",
+					"AT82_FECHAZIC214",
+					"AT93_TELEFOON214"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMXEQ_ESTADOLAL_44582",
+				"LBL_MMXEQ_TIPOUZWVW_13055"
+			],
+			"queries": {
+				"Q_PROSTPOT_PL72": [
+					"",
+					"",
+					"",
+					"",
+					"QM_PROST2OPTL150_01",
+					"QM_PROST2PT2L743_05",
+					"QM_PROSTL2OP2179_04",
+					"QM_PROSTLOLP7654_07",
+					"QM_PROSTOOLLO759_03",
+					"QM_PROSTP7PTP732_02",
+					"QM_PROSTPPLPO633_06"
+				]
+			},
+			"subForms": [
+			]
+		},
 		"T_MMXEQKMJPABBZ_957": {
 			"blis": [
 				"BLI3284_bli_consultar_persona"
@@ -130,10 +180,30 @@
 		},
 		"T_MMXEQMXOIUVFI_481": {
 			"blis": [
+				"BLI3284_bli_consultar_persona",
+				"BLI8460_bli_consultar_cliente"
 			],
 			"entities": {
+				"EN_CLIENTECP_839": [
+					"AT12_CEDULAXD839",
+					"AT14_APELLIDO839",
+					"AT31_NOMBREAN839",
+					"AT39_IDCLIENT839",
+					"AT48_NACIONII839",
+					"AT79_TELEFONO839"
+				],
 				"EN_FILTROBDU_551": [
 					"AT56_FILTRORR551"
+				],
+				"EN_PERSONAYL_719": [
+					"AT10_NOMBREGR719",
+					"AT11_ESTADOVI719",
+					"AT18_SEXOYLIF719",
+					"AT21_TELEFOOO719",
+					"AT23_NOMBREEU719",
+					"AT40_APELLIDD719",
+					"AT62_APELLIUU719",
+					"AT76_IDPERSAN719"
 				]
 			},
 			"externalEntities": {
@@ -146,6 +216,38 @@
 				"LBL_MMXEQ_FILTROXYG_56503"
 			],
 			"queries": {
+				"Q_CLIEENET_ZO82": [
+					"QM_CLIEE2822Z380_06",
+					"QM_CLIEE8TTT8265_03",
+					"QM_CLIEEEZ8ON907_04",
+					"QM_CLIEEN28N2797_02",
+					"QM_CLIEENEZON772_05",
+					"QM_CLIEENZEEO105_01",
+					"QM_PERSO4QOQ4505_04",
+					"QM_PERSOA42NG136_04",
+					"QM_PERSONA22A428_03",
+					"QM_PERSOO4GQ4643_01",
+					"QM_PERSOQG4A4781_03",
+					"QM_PERSOQNAQQ273_02",
+					"QM_PERSOQON24286_01",
+					"QM_PERSOQQNOO953_02"
+				],
+				"Q_PERSOONA_GQ42": [
+					"QM_CLIEE2822Z380_06",
+					"QM_CLIEE8TTT8265_03",
+					"QM_CLIEEEZ8ON907_04",
+					"QM_CLIEEN28N2797_02",
+					"QM_CLIEENEZON772_05",
+					"QM_CLIEENZEEO105_01",
+					"QM_PERSO4QOQ4505_04",
+					"QM_PERSOA42NG136_04",
+					"QM_PERSONA22A428_03",
+					"QM_PERSOO4GQ4643_01",
+					"QM_PERSOQG4A4781_03",
+					"QM_PERSOQNAQQ273_02",
+					"QM_PERSOQON24286_01",
+					"QM_PERSOQQNOO953_02"
+				]
 			},
 			"subForms": [
 			]
@@ -192,6 +294,10 @@
 			]
 		},
 		"Q_PERSOONA_GQ42": {
+			"labels": [
+			]
+		},
+		"Q_PROSTPOT_PL72": {
 			"labels": [
 			]
 		}

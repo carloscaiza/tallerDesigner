@@ -1,0 +1,137 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "L"
+		},
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "2515"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_estado",
+			"type": "CUSTOM",
+			"value": "estado"
+		}
+	],
+	"name": "BLI_consultar_prospectoB",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI5184_bli_consultar_prospectob",
+	"patternName": "BLI_consultar_prospectoB",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "5aabfbb4-9bc7-4d79-b929-ad7df42fe61e",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 4,
+			"queryName": "SELECT"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "5aabfbb4-9bc7-4d79-b929-ad7df42fe61e",
+			"columns": [
+				{
+					"attributeId": "AT65_IDPROSTE214",
+					"entityId": "EN_PROSPECOO_214",
+					"format": "",
+					"name": "id",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT42_NOMBREAT214",
+					"entityId": "EN_PROSPECOO_214",
+					"format": "",
+					"name": "nombre",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT30_APELLIDD214",
+					"entityId": "EN_PROSPECOO_214",
+					"format": "",
+					"name": "apellido",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT93_TELEFOON214",
+					"entityId": "EN_PROSPECOO_214",
+					"format": "",
+					"name": "telefono",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT29_ESTADOKK214",
+					"entityId": "EN_PROSPECOO_214",
+					"format": "",
+					"name": "estado",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT11_TIPORUIL214",
+					"entityId": "EN_PROSPECOO_214",
+					"format": "",
+					"name": "Tipo",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT82_FECHAZIC214",
+					"entityId": "EN_PROSPECOO_214",
+					"format": "",
+					"name": "fechaI",
+					"position": 7,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_PROSPECOO_214",
+			"module": {
+				"moduleId": "MMXEQ",
+				"moduleName": "Main"
+			},
+			"name": "Prospecto"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_persona_taller",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

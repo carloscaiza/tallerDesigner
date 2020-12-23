@@ -3,6 +3,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PROSPECOO_214",
+						"moduleId": "MMXEQ",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI1200_bli_consultar_prospecto",
+			"nameBli": "BLI_consultar_prospecto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_PERSONAYL_719",
 						"moduleId": "MMXEQ",
@@ -67,6 +84,23 @@
 			},
 			"idBli": "BLI4141_bli_insert_cliente",
 			"nameBli": "BLI_insert_cliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PROSPECOO_214",
+						"moduleId": "MMXEQ",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI5184_bli_consultar_prospectob",
+			"nameBli": "BLI_consultar_prospectoB"
 		},
 		{
 			"entities": {

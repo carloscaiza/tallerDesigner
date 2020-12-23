@@ -12,5 +12,12 @@
 				"$ref": "../SSMMX/queries/Q_PERSOONA_GQ42.json#"
 			}
 		}
+	},
+	"EN_PROSPECOO_214": {
+		"queries": {
+			"Q_PROSTPOT_PL72": {
+				"$ref": "../SSMMX/queries/Q_PROSTPOT_PL72.json#"
+			}
+		}
 	}
 }

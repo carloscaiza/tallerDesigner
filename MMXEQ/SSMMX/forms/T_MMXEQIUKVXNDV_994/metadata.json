@@ -1,19 +1,13 @@
 {
 	"entities": [
 		{
-			"entityId": "EN_CLIENTECP_839",
-			"isContextEntity": null,
-			"moduleId": "MMXEQ",
-			"related": false
-		},
-		{
 			"entityId": "EN_FILTROBDU_551",
 			"isContextEntity": null,
 			"moduleId": "MMXEQ",
 			"related": false
 		},
 		{
-			"entityId": "EN_PERSONAYL_719",
+			"entityId": "EN_PROSPECOO_214",
 			"isContextEntity": null,
 			"moduleId": "MMXEQ",
 			"related": false
@@ -22,13 +16,7 @@
 	"queries": [
 		{
 			"moduleId": "MMXEQ",
-			"queryId": "Q_CLIEENET_ZO82",
-			"related": false,
-			"subModuleId": "SSMMX"
-		},
-		{
-			"moduleId": "MMXEQ",
-			"queryId": "Q_PERSOONA_GQ42",
+			"queryId": "Q_PROSTPOT_PL72",
 			"related": false,
 			"subModuleId": "SSMMX"
 		}
